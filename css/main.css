@@ -1,0 +1,48 @@
+@font-face {
+font-family: 'Chunk';
+font-style: normal;
+font-weight: normal;
+src: local('ChunkFive-Roman'), url('../fonts/Chunkfive.woff') format('woff');
+}
+
+body{
+	
+}
+
+img.rounded{
+border:5px solid #F27935;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+
+.chunk{
+	font-family: 'Chunk';
+}
+p{
+	font-family: 'Raleway';
+	font-weight: 400;
+}
+.divide20{
+	margin-top: 20px;
+}
+.menuItem{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+#goBack{
+	font-family: 'Chunk';
+	font-size: 48px;
+}
+h3{
+	text-align: center;
+	line-height: 10px;
+	font-family: 'Raleway';
+	font-weight: 200;
+}
+
+#menuList, #theMenu {
+  -webkit-animation-duration: .4s;
+  -webkit-animation-delay: .1s;
+}
